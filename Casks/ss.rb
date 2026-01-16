@@ -3,7 +3,7 @@ cask "ss" do
   name "ss"
   desc "All-in-one Go development toolkit with code generation and runtime utilities"
   homepage "https://github.com/ssgohq/ssgo"
-  version "0.0.2"
+  version "0.0.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "ss" do
     on_intel do
       url "https://github.com/ssgohq/ssgo/releases/download/v#{version}/ss_Darwin_x86_64.tar.gz",
         verified: "github.com/ssgohq/ssgo"
-      sha256 "85882f04f700101b78839918e4767ae161a309423a0fb7449b1c0a70888272cb"
+      sha256 "a3b5a62ceb4cce28ef7d7ed5840e2bf6403f2c2d25c1e0516fa860a6cbd4af63"
     end
     on_arm do
       url "https://github.com/ssgohq/ssgo/releases/download/v#{version}/ss_Darwin_arm64.tar.gz",
         verified: "github.com/ssgohq/ssgo"
-      sha256 "7ffc6dcdddacfd3d75642afaa81cd1b534edf7df67e53869ac769513faa90c38"
+      sha256 "13675a1ab5adbb3080e5118f8635a53ab5b3d0e3a2f4649e1ad52de2a4a8b483"
     end
   end
 
@@ -28,12 +28,12 @@ cask "ss" do
     on_intel do
       url "https://github.com/ssgohq/ssgo/releases/download/v#{version}/ss_Linux_x86_64.tar.gz",
         verified: "github.com/ssgohq/ssgo"
-      sha256 "55f27fc42204a547d40741e7090e1207440cd233d34cc3878d2884b34f5d121d"
+      sha256 "accc6e2fbae5c6e38074567b965a759e74a3ee6efd85b9f553eb005331ba7b84"
     end
     on_arm do
       url "https://github.com/ssgohq/ssgo/releases/download/v#{version}/ss_Linux_arm64.tar.gz",
         verified: "github.com/ssgohq/ssgo"
-      sha256 "9730033e645a035ad9980a0d2f437cd2b1a52faa2fdb759c23d60ed124d8aed3"
+      sha256 "a60735b424af5424af488c6b01008baddedfd2d7fd611a577265aa2a16e70f4a"
     end
   end
 
